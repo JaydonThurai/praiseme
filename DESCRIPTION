@@ -1,0 +1,20 @@
+Package: praiseme
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jaydon",
+           family = "Thurairatnam",
+           role = c("aut", "cre"),
+           email = "jaydon.thurairatnam@students.mq.edu.au",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: We can sometimes feel unmotivated or unfulfilled when doing a large project without breaks. This package aims to give encouragement and praise to those who use it.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    glue
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
